@@ -453,6 +453,15 @@ public class EnglishLangProvider extends AbstractLangProvider {
 		addItem(ModItems.DEV_ARM_CANNON, "[Dev Tool] Arm Cannon", "Creative/Developer Tool for testing projectiles.");
 		addItem(ModItems.BILE_SPITTER, "[WIP] Bile Spitter", "[WIP] \"living\" projectile weapon that shoots corrosive bile.\nIntended behaviour: charge it like a bow to increase damageShape & size of projectile.");
 
+		addItem(ModItems.ACOLYTE_ARMOR_HELMET, "Acolyte Helmet");
+		addItem(ModItems.ACOLYTE_ARMOR_CHESTPLATE, "Acolyte Chestplate");
+		addItem(ModItems.ACOLYTE_ARMOR_LEGGINGS, "Acolyte Leggings");
+		addItem(ModItems.ACOLYTE_ARMOR_BOOTS, "Acolyte Boots");
+		addItem(ModItems.OVERSEER_ARMOR_HELMET, "Overseer Helmet");
+		addItem(ModItems.OVERSEER_ARMOR_CHESTPLATE, "Overseer Chestplate");
+		addItem(ModItems.OVERSEER_ARMOR_LEGGINGS, "Overseer Leggings");
+		addItem(ModItems.OVERSEER_ARMOR_BOOTS, "Overseer Boots");
+
 		addItem(ModItems.BIO_EXTRACTOR, "[PH] Bio-Extractor", EMPTY_STRING);
 		addItem(ModItems.ESSENCE, "[PH] Essence", EMPTY_STRING);
 
