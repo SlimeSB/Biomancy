@@ -6,6 +6,7 @@ import com.github.elenterius.biomancy.item.*;
 import com.github.elenterius.biomancy.item.armor.AcolyteArmorItem;
 import com.github.elenterius.biomancy.item.armor.OverseerArmorItem;
 import com.github.elenterius.biomancy.item.injector.InjectorItem;
+import com.github.elenterius.biomancy.item.shield.ThornShieldItem;
 import com.github.elenterius.biomancy.item.weapon.*;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.EntityType;
@@ -113,6 +114,9 @@ public final class ModItems {
 	public static final RegistryObject<OverseerArmorItem> OVERSEER_ARMOR_CHESTPLATE = registerArmorChestplate("overseer_armor", ModArmorMaterials.OVERSEER, OverseerArmorItem::new);
 	public static final RegistryObject<OverseerArmorItem> OVERSEER_ARMOR_LEGGINGS = registerArmorLeggings("overseer_armor", ModArmorMaterials.OVERSEER, OverseerArmorItem::new);
 	public static final RegistryObject<OverseerArmorItem> OVERSEER_ARMOR_BOOTS = registerArmorBoots("overseer_armor", ModArmorMaterials.OVERSEER, OverseerArmorItem::new);
+
+	//# Shield
+	public static final RegistryObject<ThornShieldItem> THORN_SHIELD = registerItem("thorn_shield", props -> new ThornShieldItem(props.stacksTo(1)));
 
 	//# Food/Fuel
 	public static final RegistryObject<EffectCureItem> NUTRIENT_PASTE = registerItem("nutrient_paste", props -> new EffectCureItem(props.food(ModFoods.NUTRIENT_PASTE)));

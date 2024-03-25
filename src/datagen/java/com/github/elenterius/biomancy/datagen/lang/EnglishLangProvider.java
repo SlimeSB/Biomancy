@@ -462,6 +462,8 @@ public class EnglishLangProvider extends AbstractLangProvider {
 		addItem(ModItems.OVERSEER_ARMOR_LEGGINGS, "Overseer Leggings");
 		addItem(ModItems.OVERSEER_ARMOR_BOOTS, "Overseer Boots");
 
+		addItem(ModItems.THORN_SHIELD, "The Thorn");
+
 		addItem(ModItems.BIO_EXTRACTOR, "[PH] Bio-Extractor", EMPTY_STRING);
 		addItem(ModItems.ESSENCE, "[PH] Essence", EMPTY_STRING);
 
